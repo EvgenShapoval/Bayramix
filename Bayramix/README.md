@@ -7,7 +7,7 @@
 
 ### AddAndCheckCartTest
 Add to the cart product and check the quantity and amount
-
+  
 #### MainPage
 In the menu select "Интернет-магазин"
 
@@ -21,14 +21,14 @@ Go to the plaster of marble chips. In this section there is material "Голд �
 Add to shopping cart 5 pieces of product "Голд минерал"
 
 #### CartPage
-Check: Make sure that it is in the cart in this quantity.
+Check: Make sure that it is in the cart in this quantity.  
 Check that the total order amount corresponds to the declared on the website  
 
 ***
 
 ### SearchFormTest
 Checks the operation of the search on the site
-
+  
 #### MainPage
 In the search form, enter "фасадны"  
 In the pop-up window, select "Показать все результаты"  
@@ -47,7 +47,7 @@ Check for a string "Результат поиска: найдено 2 объек
 
 ### CreateAccountTest
 Checks the registration form on the website  
-
+  
 #### MarketPlacePage
 Go to "Доска объявлений" (http://bayramix.com.ua/marketplace.html)  
 Click on "Мой профиль"  
