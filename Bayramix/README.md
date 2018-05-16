@@ -6,7 +6,7 @@
 ***
 
 ### AddAndCheckCartTest
-Add to the cart product and check the quantity and amount
+*Add to the cart product and check the quantity and amount*
   
 #### MainPage
 In the menu select "Интернет-магазин"
@@ -27,7 +27,7 @@ Check that the total order amount corresponds to the declared on the website
 ***
 
 ### SearchFormTest
-Checks the operation of the search on the site
+*Checks the operation of the search on the site*
   
 #### MainPage
 In the search form, enter "фасадны"  
@@ -46,7 +46,7 @@ Check for a string "Результат поиска: найдено 2 объек
 ***
 
 ### CreateAccountTest
-Checks the registration form on the website  
+*Checks the registration form on the website*  
   
 #### MarketPlacePage
 Go to "Доска объявлений" (http://bayramix.com.ua/marketplace.html)  
