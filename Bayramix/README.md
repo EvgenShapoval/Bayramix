@@ -15,10 +15,10 @@ In the menu select "Интернет-магазин"
 Go to the section facade paints and coatings.
 
 #### ShtukaturkiPage
-Go to the plaster of marble chips. In this section there is material ����� �������
+Go to the plaster of marble chips. In this section there is material "Голд минерал"
 
 #### GoldMineralPage
-Add to shopping cart 5 pieces of product ����� �������
+Add to shopping cart 5 pieces of product "Голд минерал"
 
 #### CartPage
 Check: Make sure that it is in the cart in this quantity.
@@ -30,18 +30,18 @@ Check that the total order amount corresponds to the declared on the website
 Checks the operation of the search on the site
 
 #### MainPage
-In the search form, enter ���������
-In the pop-up window, select ��������� ��� �����������
+In the search form, enter "фасадны"
+In the pop-up window, select "Показать все результаты"
 
 #### SearchFormPage
-Finish off the window, search for �� ������
-Switch the radio to ������� ����������
-In Select choose ��� ��������
-Click on 2 checkboxes: �����������, ��������
+Finish off the window, search for "е краски"
+Switch the radio to "Точное совпадение"
+In Select choose "По алфавиту"
+Click on 2 checkboxes: "Материалы", "“Товары”"
 Click �Search�
 
 #### SearchResultsPage
-Check for a string ���������� ������: ������� 2 ��������  
+Check for a string "Результат поиска: найдено 2 объекта"  
 
 ***
 
@@ -49,17 +49,17 @@ Check for a string ���������� ������: ����
 Checks the registration form on the website
 
 #### MarketPlacePage
-Go to ������ ���������� (http://bayramix.com.ua/marketplace.html)
-Click on ���� ��������
+Go to "Доска объявлений" (http://bayramix.com.ua/marketplace.html)
+Click on "Мой профиль"
 
 #### LoginPage
-Choose ���� ��� ������� ������?�
+Choose "Ещё нет учетной записи?"
 
 #### CreateAccountPage
 Fill in the fields: Name, Login, Password and Email
-In the ������� ������ *� - enter the wrong Email
-Click �������������
+In the "Повтор пароля *" - enter the wrong Email
+Click "“Регистрация”"
 
 #### NextCreateAccountPage
-Check for the message ������� ����������� ����� �� ���������. �����������
+Check for the message "Адреса электронной почты не совпадают. Пожалуйста"
 
