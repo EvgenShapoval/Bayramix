@@ -1,65 +1,65 @@
-# Testing of the site [bayramix.com.ua](http://www.bayramix.com.ua/) 
+## Testing of the site [bayramix.com.ua](http://www.bayramix.com.ua/) 
 
-### Java+Selenium+JUnit
-### With the use Page Object - PageFactory
+#### Java+Selenium+JUnit
+#### With the use Page Object - PageFactory  
 
+***
 
-
-## AddAndCheckCartTest
+### AddAndCheckCartTest
 Add to the cart product and check the quantity and amount
 
-### MainPage
+#### MainPage
 In the menu select У»нтернет-магазинФ
 
-### InternetMagazinPage
+#### InternetMagazinPage
 Go to the section facade paints and coatings.
 
-VShtukaturkiPage
+#### ShtukaturkiPage
 Go to the plaster of marble chips. In this section there is material У√олд минералФ
 
-VGoldMineralPage
+#### GoldMineralPage
 Add to shopping cart 5 pieces of product У√олд минералФ
 
-### CartPage
+#### CartPage
 Check: Make sure that it is in the cart in this quantity.
-Check that the total order amount corresponds to the declared on the website
+Check that the total order amount corresponds to the declared on the website  
 
+***
 
-
-## SearchFormTest
+### SearchFormTest
 Checks the operation of the search on the site
 
-### MainPage
+#### MainPage
 In the search form, enter УфасадныФ
 In the pop-up window, select Уѕоказать все результатыФ
 
-### SearchFormPage
+#### SearchFormPage
 Finish off the window, search for Уе краскиФ
 Switch the radio to У“очное совпадениеФ
 In Select choose Уѕо алфавитуФ
 Click on 2 checkboxes: УћатериалыФ, У“оварыФ
 Click УSearchФ
 
-### SearchResultsPage
-Check for a string У–езультат поиска: найдено 2 объектаФ
+#### SearchResultsPage
+Check for a string У–езультат поиска: найдено 2 объектаФ  
 
+***
 
-
-## CreateAccountTest
+### CreateAccountTest
 Checks the registration form on the website
 
-### MarketPlacePage
+#### MarketPlacePage
 Go to Уƒоска объ€вленийФ (http://bayramix.com.ua/marketplace.html)
 Click on Ућой профильФ
 
-### LoginPage
+#### LoginPage
 Choose У≈щЄ нет учетной записи?Ф
 
-### CreateAccountPage
+#### CreateAccountPage
 Fill in the fields: Name, Login, Password and Email
 In the Уѕовтор парол€ *Ф - enter the wrong Email
 Click У–егистраци€Ф
 
-### NextCreateAccountPage
+#### NextCreateAccountPage
 Check for the message Ујдреса электронной почты не совпадают. ѕожалуйстаФ
 
