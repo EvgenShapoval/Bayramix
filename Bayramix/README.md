@@ -30,15 +30,15 @@ Check that the total order amount corresponds to the declared on the website
 Checks the operation of the search on the site
 
 #### MainPage
-In the search form, enter "фасадны"
-In the pop-up window, select "Показать все результаты"
+In the search form, enter "фасадны"  
+In the pop-up window, select "Показать все результаты"  
 
 #### SearchFormPage
-Finish off the window, search for "е краски"
-Switch the radio to "Точное совпадение"
-In Select choose "По алфавиту"
-Click on 2 checkboxes: "Материалы", "“Товары”"
-Click �Search�
+Finish off the window, search for "е краски"  
+Switch the radio to "Точное совпадение"  
+In Select choose "По алфавиту"  
+Click on 2 checkboxes: "Материалы", "Товары"  
+Click "Search"  
 
 #### SearchResultsPage
 Check for a string "Результат поиска: найдено 2 объекта"  
@@ -46,20 +46,20 @@ Check for a string "Результат поиска: найдено 2 объек
 ***
 
 ### CreateAccountTest
-Checks the registration form on the website
+Checks the registration form on the website  
 
 #### MarketPlacePage
-Go to "Доска объявлений" (http://bayramix.com.ua/marketplace.html)
-Click on "Мой профиль"
+Go to "Доска объявлений" (http://bayramix.com.ua/marketplace.html)  
+Click on "Мой профиль"  
 
 #### LoginPage
-Choose "Ещё нет учетной записи?"
+Choose "Ещё нет учетной записи?"  
 
 #### CreateAccountPage
-Fill in the fields: Name, Login, Password and Email
-In the "Повтор пароля *" - enter the wrong Email
-Click "“Регистрация”"
+Fill in the fields: Name, Login, Password and Email  
+In the "Повтор пароля *" - enter the wrong Email  
+Click "Регистрация"  
 
 #### NextCreateAccountPage
-Check for the message "Адреса электронной почты не совпадают. Пожалуйста"
+Check for the message "Адреса электронной почты не совпадают. Пожалуйста"  
 
