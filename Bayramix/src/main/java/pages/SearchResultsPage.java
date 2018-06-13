@@ -13,8 +13,5 @@ public class SearchResultsPage extends MainPage {
 //	Next page - search results
 	@FindBy(css="#searchForm div:nth-child(6)")
 	public WebElement searchResults;
-	
-//	@FindBy(css="#system > div > article:nth-child(1) > header > h1 > a")
-//	public WebElement akrilovajaKraskaLink;
-//	Акриловая краска для наружных работ
+
 }

@@ -36,10 +36,8 @@ protected WebDriver driver;
 //	Search popup
 	@FindBy(css="#searchbox-94 > ul > li.more-results.skip")
 	public WebElement boxAll;
-//	Пункт - Показать все результаты 
 	
 	@FindBy(css="#searchbox-94 > ul > li:nth-child(7) > h3")
 	public WebElement boxProd;
-//	Пункт - Продукты.Добро пожаловать
 	
 }
