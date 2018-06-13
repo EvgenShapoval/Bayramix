@@ -20,7 +20,7 @@ public class SearchFormTest {
 	
 	@Before
 	public void beforeTest() {
-		System.setProperty("webdriver.chrome.driver", "D:/soft/java/chromedriver.exe");
+//		System.setProperty("webdriver.chrome.driver", "D:/soft/java/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	}
@@ -38,20 +38,20 @@ public class SearchFormTest {
 
 		Actions actions = new Actions(driver);
 		
-//		On the main page enter in the search field "фасадны"
+//		On the main page enter in the search field "С„Р°СЃР°РґРЅС‹"
 //		in the pop-up go to the search form page
-		actions.moveToElement(mainPage.searchBox).click().sendKeys("фасадны").pause(1000).
+		actions.moveToElement(mainPage.searchBox).click().sendKeys("С„Р°СЃР°РґРЅС‹").pause(1000).
 		moveToElement(mainPage.boxAll).pause(1000).click().perform();
 		
 ////	Alternative code to search
-//		mainPage.searchBox.sendKeys("фасадны");
+//		mainPage.searchBox.sendKeys("С„Р°СЃР°РґРЅС‹");
 //		mainPage.boxAll.click();
 		
 		SearchFormPage searchFormPage = new SearchFormPage(driver);
 		
 //		On the page Search Form
-		searchFormPage.searchWordField.sendKeys("е краски");
-//		Append "е краски" to the search string
+		searchFormPage.searchWordField.sendKeys("Рµ РєСЂР°СЃРєРё");
+//		Append "Рµ РєСЂР°СЃРєРё" to the search string
 		
 		searchFormPage.searchPhraseExactRadio.click();
 		
@@ -69,8 +69,8 @@ public class SearchFormTest {
 		String searchResult = searchResultsPage.searchResults.getText();
 		System.out.println(searchResult);
 		
-		Assert.assertTrue("Fail. Expected message - Результат поиска: найдено 2 объекта -. "
+		Assert.assertTrue("Fail. Expected message - Р РµР·СѓР»СЊС‚Р°С‚ РїРѕРёСЃРєР°: РЅР°Р№РґРµРЅРѕ 2 РѕР±СЉРµРєС‚Р° -. "
 				+ "Actual message " + searchResult,
-				searchResult.equals("Результат поиска: найдено 2 объекта."));
+				searchResult.equals("Р РµР·СѓР»СЊС‚Р°С‚ РїРѕРёСЃРєР°: РЅР°Р№РґРµРЅРѕ 2 РѕР±СЉРµРєС‚Р°."));
 	}
 }

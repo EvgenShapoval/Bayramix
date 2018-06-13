@@ -22,7 +22,7 @@ public class AddAndCheckCartTest {
 	
 	@Before
 	public void beforeTest() {
-		System.setProperty("webdriver.chrome.driver", "D:/soft/java/chromedriver.exe");
+//		System.setProperty("webdriver.chrome.driver", "D:/soft/java/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	}
@@ -41,7 +41,7 @@ public class AddAndCheckCartTest {
 		
 		MainPage mainPage = new MainPage(driver);
 		
-//		In the menu select “Интернет-магазин”
+//		In the menu select "РРЅС‚РµСЂРЅРµС‚-РјР°РіР°Р·РёРЅ"
 		mainPage.internetMagazinLink.click();
 		
 		InternetMagazinPage magazinPage = new InternetMagazinPage(driver);

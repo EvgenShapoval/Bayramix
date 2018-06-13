@@ -20,7 +20,7 @@ WebDriver driver;
 	
 	@Before
 	public void beforeTest() {
-		System.setProperty("webdriver.chrome.driver", "D:/soft/java/chromedriver.exe");
+//		System.setProperty("webdriver.chrome.driver", "D:/soft/java/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	}
@@ -36,18 +36,18 @@ WebDriver driver;
 		
 		MarketPlacePage marketPlacePage = new MarketPlacePage(driver);
 		
-//		Click on “Мой профиль”
+//		Click on вЂњРњРѕР№ РїСЂРѕС„РёР»СЊвЂќ
 		marketPlacePage.myProfilLink.click();
 		
 		LoginPage loginPage = new LoginPage(driver);
 		
-//		Choose “Ещё нет учетной записи?”
+//		Choose вЂњР•С‰С‘ РЅРµС‚ СѓС‡РµС‚РЅРѕР№ Р·Р°РїРёСЃРё?вЂќ
 		loginPage.createAccountLink.click();
 		
 		CreateAccountPage createAccountPage = new CreateAccountPage(driver);
 		
 //		Fill in the fields: Name, Login, Password and Email
-		createAccountPage.nameField.sendKeys("Евгений");
+		createAccountPage.nameField.sendKeys("Р•РІРіРµРЅРёР№");
 		createAccountPage.usernameField.sendKeys("Evgen5");
 		
 		createAccountPage.password1Field.sendKeys("885885");
@@ -65,9 +65,9 @@ WebDriver driver;
 		String errorReport = nextCreateAccountPage.errorEmailReport.getText();
 		System.out.println(errorReport);
 		
-//		Check for the message “Адреса электронной почты не совпадают. Пожалуйста”
-		Assert.assertTrue("Fail. Expected message - Адреса электронной почты не совпадают. Пожалуйста -. "
+//		Check for the message вЂњРђРґСЂРµСЃР° СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ РїРѕС‡С‚С‹ РЅРµ СЃРѕРІРїР°РґР°СЋС‚. РџРѕР¶Р°Р»СѓР№СЃС‚Р°вЂќ
+		Assert.assertTrue("Fail. Expected message - РђРґСЂРµСЃР° СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ РїРѕС‡С‚С‹ РЅРµ СЃРѕРІРїР°РґР°СЋС‚. РџРѕР¶Р°Р»СѓР№СЃС‚Р° -. "
 				+ "Actual message " + errorReport, 
-				errorReport.contains("очты не совпада"));
+				errorReport.contains("РѕС‡С‚С‹ РЅРµ СЃРѕРІРїР°РґР°"));
 	}	
 }
